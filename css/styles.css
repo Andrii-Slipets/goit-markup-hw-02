@@ -7,10 +7,9 @@
 
 
 body {
-    font-family: 'Roboto', 'Raleway';
-    background-color: #F4F4FD;
-    color: #2E2F42;
-    font-weight: 500;
+    font-family: 'Roboto', 'Raleway' sans-serif;
+    background-color: #FFFFFF;
+    color: #434455 font-weight: 500;
     font-size: 16;
 }
 
@@ -19,16 +18,17 @@ body {
 .header-nav {}
 
 .header-logo {
-    font-family: Raleway;
+    font-family: Raleway sans-serif;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.03em;
-    text-decoration: none;
-    line-height: 1.16;
+    line-height: 1.17;
     font-size: 18px;
+    color: #4D5AE5;
 }
 
-.span {
-    color: #4D5AE5;
+.header-span {
+    color: #2E2F42;
 }
 
 ul {
@@ -50,58 +50,104 @@ a {
     text-align: left;
 }
 
+.header-menu-link {
+    color: #2e2f42;
+}
+
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+
 .header-address {}
 
 .header-address-item {}
 
-.header-info-item {}
+.header-info-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
 
 .header-address-link {
     color: #434455;
+    font-style: normal;
 }
 
+.header-address-link:hover {
+    color: #404bbf;
+}
 
+.header-address-link:focus {
+    color: #404bbf;
+}
 
 
 
 .solutions {
     background-color: #2E2F42;
+
 }
 
 .solutions-title {
-    background-color: #2E2F42;
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
-    line-height: 107.142857%;
-    /* 60/56 */
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    text-align: center;
     width: 496px;
     height: 120px;
 }
 
 .solutions-btn {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
+    font-weight: 500;
     color: #FFFFFF;
+    background-color: #4D5AE5;
     background: #4D5AE5;
-    width: 105px;
-    height: 24px;
+    width: 169px;
+    height: 56px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.prioryti {}
+.solutions-btn:hover {
+    background-color: #404BBF;
+}
 
-.priory-title {}
+.solutions-btn:focus {
+    background-color: #404BBF;
+}
 
-.prioryti-list {}
+
+.prioryti {
+    background-color: #F4F4FD;
+}
+
+.priory-title {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.prioryti-list {
+    background-color: #FFFFFF
+}
 
 .prioryti-item {}
 
 .prioryti-subtitle {
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
-    /* 24/20 */
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -114,15 +160,16 @@ a {
     color: #434455;
 }
 
+
 .our-team {}
 
 .title-team {
     font-size: 36px;
     font-weight: 700;
-    line-height: 111.111111%;
-    /* 40/36 */
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .team-list {}
@@ -186,17 +233,31 @@ a {
     color: #434455;
 }
 
-.footer-logo {}
+.footer {
+    background-color:
+        #2E2F42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+    color: #4d5ae5;
+}
+
+.footer-span {
+    color: #f4f4fd;
+}
 
 .footer-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 150%;
-    /* 24/16 */
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
     text-align: left;
-}
-
-.footer-span {
-    color: #4D5AE5;
 }
