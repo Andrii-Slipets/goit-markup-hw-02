@@ -66,7 +66,9 @@ a {
 }
 
 
-.header-address {}
+.header-address {
+    font-style: normal;
+}
 
 .header-address-item {
     font-style: normal;
@@ -108,9 +110,9 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 496px;
-    height: 120px;
-}
+    /* width: 496px;
+    height: 120px;*/
+} 
 
 .solutions-btn {
     font-family: "Roboto", sans-serif;
@@ -119,8 +121,8 @@ a {
     color: #FFFFFF;
     background-color: #4D5AE5;
     background: #4D5AE5;
-    width: 169px;
-    height: 56px;
+    /* width: 169px;
+    height: 56px; */
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
