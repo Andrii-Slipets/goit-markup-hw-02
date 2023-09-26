@@ -50,7 +50,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .header-menu-link {
@@ -80,7 +80,7 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
+    /* text-align: left; */
 
 }
 
@@ -231,10 +231,10 @@ a {
 .portfolio-subtitle {
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
-    /* 24/20 */
+    line-height: 1.2;
+   
     letter-spacing: 0.02em;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .portfolio-text {
@@ -243,7 +243,7 @@ a {
     line-height: 1.5;
     
     letter-spacing: 0.02em;
-    text-align: left;
+    /* text-align: left; */
     color: #434455;
 }
 
@@ -259,7 +259,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: left;
+    /* text-align: left; */
     color: #4d5ae5;
 }
 
@@ -273,5 +273,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    text-align: left;
+    /* text-align: left; */
 }
